@@ -26,7 +26,7 @@ function Timer(props){
         if(magic >= 0 && !stopCount){
             let interval = setInterval(() => { 
                 setCount(magic) ;
-                if (magic === 0){
+                if (magic === 1){
                     let not = new Audio(sound);
                     not.pause();
                     not.currentTime = 0;   
