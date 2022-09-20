@@ -1,0 +1,159 @@
+.clockContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border: 3px rgb(51, 51, 51) solid;
+    border-radius: 8px;
+    width: 23vw;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+    padding-bottom: 1vh;
+}
+
+.ubText{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-right: -1vw;
+    font-weight: 800;
+    font-size: 2vh;
+    letter-spacing: 0.5vh;
+    color: #e1e1e1;
+    animation-name: smallComponentsText;
+    animation-duration: 2s;
+    
+}
+
+.clockBody{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-right: 2px solid #272727;
+    width: 10vw;
+    
+}
+
+.clockConf{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: auto;
+    width: 10vw;
+}
+
+.confButton{
+    border-radius: 8px;
+    border: 1px solid #272727;
+    background-color: #e1e1e100;
+    color: #e1e1e1;
+    font-size: 0.80vw;
+    width: 5vw;
+    animation-name: smallComponentsText;
+    animation-duration: 2s;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.05),
+                0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15), 
+                0 8px 8px rgba(0,0,0,0.10);
+    transition: background-color 0.5s , box-shadow 0.5s , min-height 0.5s ,height 0.75s ;
+}
+
+.confButton:hover{
+    background-color: #444444;
+    box-shadow: 
+              0 1px 1px rgba(0,0,0,0.25),
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+}
+
+.confButton:active{
+    background-color: #3b3b3b;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.10),
+                0 0px 0px rgba(0,0,0,0.05),
+                0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15);           
+}
+
+
+.secDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 6vw;
+    margin: auto;
+    
+}
+
+.hourMin{
+    margin: auto;
+    margin-top: 0%;
+    font-size: 5vh;
+    width: 10vw;
+    font-size: 2.5vw;
+    color: #e1e1e1;
+    animation-name: smallComponentsText;
+    animation-duration: 2s;
+}
+
+.seconds{
+    margin: auto;
+    margin-top: 0%;
+    font-size: 3vh;
+    color: #e1e1e1;
+    font-size: 1.75vw;
+    animation-name: smallComponentsText;
+    animation-duration: 2s;
+}
+
+.secButton{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #e1e1e1;
+    margin-left: 0.5vw;
+    height: 4vh;
+    width: 2.5vw;
+    text-align: center;
+    font-size: 1vw;
+    border: 1px  #3b3b3b solid;
+    animation-name: smallComponentsText;
+    animation-duration: 2s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+    transition: background-color 0.5s , box-shadow 0.5s , min-height 0.5s ,height 0.75s ;
+}
+
+.secButton:hover{
+    background-color: #444444;
+    box-shadow: 
+              0 1px 1px rgba(0,0,0,0.25),
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+}
+
+.secButton:active{
+    background-color: #3b3b3b;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.10),
+                0 0px 0px rgba(0,0,0,0.05),
+                0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15);           
+}
+
+.br{
+    font-size: 5vh;
+}

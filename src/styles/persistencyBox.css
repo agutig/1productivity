@@ -1,0 +1,56 @@
+
+.persistencyBox{
+    border-radius: 16px;
+    width: 20vw;
+    margin: auto;
+    margin-top: -10vh;
+    background-color: #3b3b3b;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+}
+
+.persistencyBoxText{
+    margin: auto;
+    margin-top: -1vh;
+    font-size: 1.5vw;
+    color: #f7f7f7;
+}
+
+.persistencyBoxButton{
+    font-size: 1.5vw;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #272727;
+    border-radius: 8px;
+    color: #e1e1e1;
+    background-color: #3b3b3b;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+    transition: background-color 0.5s , box-shadow 0.5s;
+}
+
+
+.persistencyBoxButton:hover{
+    background-color: #444444;
+    box-shadow: 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05),
+              0 20px 20px rgba(0,0,0,0.25);
+}
+
+.persistencyBoxButton:active{
+    background-color: #3b3b3b;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.05),
+                0 1px 1px rgba(0,0,0,0.25), 
+                0 2px 2px rgba(0,0,0,0.20), 
+                0 4px 4px rgba(0,0,0,0.15), 
+                0 8px 8px rgba(0,0,0,0.10);         
+}
